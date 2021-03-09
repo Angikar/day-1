@@ -1,0 +1,25 @@
+
+public class Student extends Human {
+	private String name; //data encapsulation
+	private int age;
+	void study() {
+		System.out.println(getName() +" is studying");
+	}
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	Student(){     //default constructor
+		
+	}
+	
+	Student(String name){  //custom constructor
+		setName(name);
+	}
+
+
+}

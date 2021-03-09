@@ -1,0 +1,42 @@
+
+public class School {
+    
+	public static void main(String[] args) {
+		//for loop to create 10 teacher objects
+		for(int i=0;i<10;i++) {
+			Teacher teacher = new Teacher("Shyam" + i);
+		}
+		//while , do-while
+		int i=0;
+    /*		while( i <10) {
+			System.out.println(i);
+			i++;
+		}  */
+		
+		for(i=0;i<4;i++) {
+			for(int j=0;j<=i;j++) {
+				System.out.println("*");
+			}
+		}
+		
+		
+		
+		
+	}
+		
+		void studentDiscussion() {
+			
+			System.out.println("Hello Java!");
+			
+			Student student = new Student("Ram");
+			//student.name="Ram";  //avoid
+			//student.setName("     "); //avoid
+			
+			student.setAge((byte)10);
+			System.out.println("Name:" + student.getName());
+			System.out.println("Age:" + student.getAge());
+			student.study();
+		}
+		
+	
+}

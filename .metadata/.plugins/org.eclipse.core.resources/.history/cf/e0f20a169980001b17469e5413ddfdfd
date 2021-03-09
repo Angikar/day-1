@@ -1,0 +1,14 @@
+
+public class School {
+    
+	public static void main(String[] args) {
+		
+		System.out.println("Hello Java!");
+		
+		Student student = new Student("Ram");
+		//student.name="Ram";  //avoid
+		//student.setName("     "); //avoid
+		System.out.println(student.getName());
+		
+	}
+}
