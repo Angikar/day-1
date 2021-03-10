@@ -181,3 +181,6 @@ Java Model Exception: Java Model Status [Unknown javadoc format for TODO {key=Lc
 
 !ENTRY org.eclipse.jdt.debug 2 0 2021-03-09 15:50:04.172
 !MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2021-03-10 09:47:23.854
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
