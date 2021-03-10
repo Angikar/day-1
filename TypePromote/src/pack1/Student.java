@@ -1,36 +1,20 @@
 package pack1;
 
-class Student{
-	private String name;
-	private int age;
-	private GENDER gender;
+class Student extends Human{
 
-	public Student(String name) {
+	 private String name;
+
+	Student(String name) {
 		this.name = name;
 	}
 
-	public String getName() {
-		return name;
+	void eats() { //overrides method
+		super.eats();
+		System.out.println("student eats");
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public GENDER getGender() {
-		return gender;
-	}
-
-	public void setGender(GENDER gender) {
-		this.gender = gender;
-	}
+	
+	
+	
 }
 	
