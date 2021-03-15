@@ -8,7 +8,7 @@ class Book{
 		if(a==10) {
 			int b=20;  //code block variable
 		}
-		System.out.println(b); //cannot print code block var outside code block
+		System.out.println(a); //cannot print code block var outside code block
 	}
 	
 			

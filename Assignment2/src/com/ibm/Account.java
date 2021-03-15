@@ -25,7 +25,9 @@ public class Account {
 		this.balance = balance;
 	}
 
+	@Override
 	public String toString() {
-		return "{ " + this.name + ", " 	+ this.balance+" }"	;
+		return "Account [name=" + name + ", balance=" + balance + "]";
 	}
+
 }
