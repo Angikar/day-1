@@ -18,4 +18,11 @@ public class Manager extends Employee {
 	public void mailToStakeHolder() {
 		System.out.println("Bug is handled!");
 	}
+	public String checkStatus(Bug bug1) {
+		if(bug1.getStatus()==STATUS.VERIFIED) {
+			return "Bug is verified";
+		}else {
+			return "Still needs correction";
+		}
+	}
 }

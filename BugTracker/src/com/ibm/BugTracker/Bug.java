@@ -18,10 +18,11 @@ public class Bug {
 	private SEVERITY severity;
 	
 
-	public Bug(int bugId, int projectId, Date submittedOn) {
+	public Bug(int bugId, int projectId, Date submittedOn ,STATUS status) {
 		setBugId(bugId);
 		setProjectId(projectId);
 		setSubmittedOn(submittedOn);
+		setStatus(status);
 	}
 
 	public int getBugId() {

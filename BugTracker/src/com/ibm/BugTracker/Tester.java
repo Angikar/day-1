@@ -19,7 +19,7 @@ public class Tester extends Employee {
 	
 	public void setBugStatus(Bug bug, STATUS status) {
 		bug.setStatus(status);
-		System.out.println("After testing , status is :" + status);
+		System.out.println("Testing in progress , status is :" + status);
 	}
 	
 
